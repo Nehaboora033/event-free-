@@ -246,8 +246,11 @@
 
 .section4-heading {
     font-family: Poppins;
-    max-width: 500px;
+    max-width: 338px;
     line-height: 137%;
+    font-weight: 700;
+    font-size: 48px;
+
 
 }
 
@@ -255,6 +258,7 @@
     font-family: Poppins;
     line-height: 100%;
     opacity: 70%;
+    max-width: 543px;
 }
 
 .learn-more {
@@ -273,11 +277,12 @@
     padding-bottom: 24px;
     padding-left: 13px;
     padding-right: 13px;
-    transition:box shadow 100ms linear;
-    transition:scale 100ms linear;
-    
+    transition: box shadow 100ms linear;
+    transition: scale 100ms linear;
+
 }
-.section4-card:hover{
+
+.section4-card:hover {
     scale: 1.05;
     box-shadow: 2px 9px 32px 0px #0000000F;
 }
@@ -304,33 +309,85 @@
     opacity: 70%;
     max-width: 270px;
 }
-.gap-24{
+
+.gap-24 {
     gap: 24px;
 }
 
 
+.mb-168 {
+    margin-bottom: 168px;
+}
 
+.join-us {
+    font-family: Poppins;
+    line-height: 100%;
 
+}
 
+.section4-caption {
+    font-family: Poppins;
+    opacity: 70%;
+    line-height: 100%;
+    max-width: 543px;
+}
 
+.sign-up {
+    font-family: Poppins;
+    line-height: 100%;
+    margin-bottom: 20px;
 
+}
 
+.textarea {
+    min-height: 124px;
+    resize: none !important;
+    margin-bottom: 37px !important;
+    padding-left: 17px;
+}
 
+.px-17 {
+    padding-left: 17px;
+    padding-right: 17px;
+}
 
+.mb-16 {
+    margin-bottom: 16px;
+}
 
+.w-49 {
+    width: 49%;
+}
 
+.form-button {
 
+    justify-content: space-between;
+    border-radius: 23px;
+    padding: 11px 28px;
+    border: none;
+}
 
+.w-90 {
+    width: 90%;
+}
 
+.mb-9 {
+    margin-bottom: 9px;
+}
 
+.footer {
+    max-width: 1920px;
+    background-color: #000000;
+    padding-top: 81px;
+    padding-bottom: 25px;
+}
 
+.footer-description {
+    font-family: Poppins;
+    line-height: 100%;
 
-
-
-
-
-
-
+    padding-top: 36px;
+}
 
 
 
