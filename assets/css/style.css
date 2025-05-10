@@ -42,16 +42,18 @@
     background-color: white;
     color: #293FC6 !important;
     scale: 1.06;
-
 }
-.nav-attribute{
+
+.nav-attribute {
     transition: all 100ms linear;
 }
-.nav-attribute:hover{
-    font-weight:bold!important;
-    scale:1.09;
+
+.nav-attribute:hover {
+    font-weight: bold !important;
+    scale: 1.09;
     cursor: pointer;
 }
+
 .header-heading {
     max-width: 1044px;
 }
@@ -61,9 +63,8 @@
 }
 
 .line {
-    right: 19%;
-    top: 100px;
-
+    right: 0%;
+    top: 110px;
 }
 
 .header-logo {
@@ -136,7 +137,6 @@
     font-family: Poppins;
     line-height: 100%;
     padding-top: 21px;
-
 }
 
 .section2-description {
@@ -145,7 +145,6 @@
     line-height: 100%;
     opacity: 70%;
     padding-top: 6px;
-    margin-bottom: 60px;
 
 }
 
@@ -160,7 +159,6 @@
 .section2-card:hover {
     background-color: #2C49FE;
     cursor: pointer;
-
 }
 
 .card-heading {
@@ -187,14 +185,11 @@
     top: -40px;
     left: 90px;
     background-color: #FFFFFF;
-
 }
 
 .mt-20 {
     margin-top: 35px;
 }
-
-
 
 .section2-card:hover .card-data h4 {
     color: #FFFFFF;
@@ -212,7 +207,6 @@
     background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 .section3-heading {
@@ -254,7 +248,6 @@
     min-height: 100vh;
     padding-top: 122px;
     padding-bottom: 90px;
-
 }
 
 .section4-heading {
@@ -263,8 +256,6 @@
     line-height: 137%;
     font-weight: 700;
     font-size: 48px;
-
-
 }
 
 .section4-description {
@@ -292,7 +283,6 @@
     padding-right: 13px;
     transition: box shadow 100ms linear;
     transition: scale 100ms linear;
-
 }
 
 .section4-card:hover {
@@ -307,14 +297,12 @@
     line-height: 100%;
     padding-top: 13px;
     opacity: 70%;
-
 }
 
 .section4-card-heading {
     font-family: Poppins;
     font-size: 24px;
     line-height: 100%;
-
 }
 
 .section4-card-caption {
@@ -324,10 +312,13 @@
     max-width: 270px;
 }
 
+.gap-20 {
+    gap: 20px;
+}
+
 .gap-24 {
     gap: 24px;
 }
-
 
 .mb-168 {
     margin-bottom: 168px;
@@ -336,7 +327,6 @@
 .join-us {
     font-family: Poppins;
     line-height: 100%;
-
 }
 
 .section4-caption {
@@ -350,7 +340,6 @@
     font-family: Poppins;
     line-height: 100%;
     margin-bottom: 20px;
-
 }
 
 .textarea {
@@ -369,8 +358,9 @@
     margin-bottom: 16px;
 }
 
-.w-49 {
-    width: 49%;
+
+.mt-10 {
+    margin-top: 10px !important;
 }
 
 .form-button {
@@ -398,7 +388,7 @@
     max-width: 1920px;
     background-color: #000000;
     padding-top: 81px;
-    padding-bottom: 25px;
+
 }
 
 .footer-description {
@@ -412,7 +402,6 @@
     width: 100px;
 }
 
-
 .social-media:hover {
     scale: 1.2;
     cursor: pointer;
@@ -422,7 +411,6 @@
     font-family: Poppins;
     line-height: 100%;
     margin-bottom: 12px;
-
 }
 
 .sub-main {
@@ -432,7 +420,8 @@
     line-height: 100%;
     letter-spacing: 0%;
 }
-.sub-main:hover{
+
+.sub-main:hover {
     cursor: pointer;
 }
 
@@ -442,7 +431,6 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 18px;
     grid-row-gap: 18px;
-
 }
 
 .div1 {
@@ -469,7 +457,6 @@
     grid-area: 2 / 3 / 3 / 4;
 } */
 
-
 .show-box {
     background-color: #18205C;
     padding-left: 24px;
@@ -477,7 +464,8 @@
     padding-top: 7px;
     padding-bottom: 7px;
 }
-.show-box:hover{
+
+.show-box:hover {
     cursor: pointer;
 }
 
@@ -491,24 +479,23 @@
     max-width: 962px;
     padding: 19px 23px;
     background-color: #293FC6;
-    border-radius: 150px;
-    margin-top: 145px;
+    border-radius: 50px;
+    margin-top: 100px;
     opacity: 74%;
-
 }
 
 .bluebox-main {
     font-family: Yantramanav;
     line-height: 100%;
+    opacity: 1;
 
 }
 
 .bluebox-submain {
     font-family: Yantramanav;
     line-height: 100%;
-
+    opacity: 1;
 }
-
 
 .white-line {
     height: 74px;
@@ -520,13 +507,21 @@
     width: 178px;
 }
 
+.max-w-203 {
+    max-width: 160px;
+}
+
+.max-w-98 {
+    max-width: 70px;
+}
+
 .white-button {
-    width: 185px;
-    height: 70px;
     border-radius: 150px;
     background-color: #FFFFFF;
     transition: scale 100ms linear;
     border: none;
+    opacity: 1;
+    padding: 20px 40px;
 
 }
 
@@ -538,40 +533,50 @@
 .go-check {
     font-family: Poppins;
     line-height: 100%;
-
-
+    opacity: 1;
 
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
 
+.max-w-24 {
+    max-width: 24px;
+}
 
+.max-w-23 {
+    max-width: 23px;
+}
 
+.max-w-30 {
+    max-width: 30px;
+}
 
+.main-card {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
 
+.show-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.max-w-472 {
+    max-width: 240px;
+}
 
+.mx-auto {
+    margin: auto;
+}
 
+.ml-20 {
+    margin-left: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* media query */
 
 
 @media(max-width:992px) {
@@ -639,4 +644,144 @@
     .activeNavBar .menu-icon {
         height: 34px;
     }
+}
+
+
+
+@media(max-width:425px) {
+    .line {
+        right: 28%;
+        top: 116px;
+    }
+}
+
+.w-sm-100 {
+    width: 100%;
+}
+@media(max-width:375px) {
+    .line {
+        right: 4%;
+        top: 116px;
+    }
+}
+
+@media(min-width:576px) {
+    .main-card {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .line {
+        right: 10%;
+        top: 180px;
+    }
+
+    .flex-sm-row {
+        flex-direction: row;
+    }
+
+    .w-49 {
+        width: 49%;
+    }
+
+    .ml-20 {
+        margin-left: 0px;
+    }
+
+
+    .white-button {
+        padding: 12px 20px;
+        margin-left: 0px;
+    }
+
+    .max-w-472 {
+        max-width: 320px;
+    }
+
+    .max-w-203 {
+        max-width: 203px;
+    }
+
+    .max-w-98 {
+        max-width: 98px;
+    }
+
+    .max-w-316 {
+        max-width: 316px;
+    }
+
+
+    @media(min-width:768px) {
+        .line {
+            right: 6%;
+            top: 100px;
+
+        }
+
+        .blue-box {
+            border-radius: 150px;
+            margin-top: 145px;
+        }
+
+
+
+    }
+
+    .card-circle {
+        top: -40px;
+        left: 90px;
+    }
+
+    .width-md-150 {
+        width: 150px;
+    }
+
+    .white-button {
+        padding: 20px 28px;
+        margin-left: 10px;
+    }
+
+    .flex-md-row {
+        flex-direction: row;
+    }
+
+    .ml-20 {
+        margin-left: 0px;
+    }
+
+}
+
+@media(min-width:992px) {
+    .line {
+        right: 20%;
+        top: 100px;
+    }
+
+    .card-circle {
+        top: -40px;
+        left: 90px;
+    }
+
+    .width-lg-178 {
+        width: 178px;
+    }
+
+    .white-button {
+        padding: 20px 39px;
+        margin-left: 0;
+    }
+
+    .mb-lg-168 {
+        margin-bottom: 168px;
+    }
+
+    .max-w-472 {
+        max-width: 472px;
+    }
+
+    .ml-20 {
+        margin-left: 0px;
+    }
+
+
 }
