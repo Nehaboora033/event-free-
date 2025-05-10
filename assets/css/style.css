@@ -23,6 +23,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 17px;
+    padding-bottom: 104px;
 }
 
 .nav-button {
@@ -33,8 +35,23 @@
     line-height: 150%;
     font-family: Poppins;
     margin-left: 50px;
+    transition: all 100ms linear;
 }
 
+.nav-button:hover {
+    background-color: white;
+    color: #293FC6 !important;
+    scale: 1.06;
+
+}
+.nav-attribute{
+    transition: all 100ms linear;
+}
+.nav-attribute:hover{
+    font-weight:bold!important;
+    scale:1.09;
+    cursor: pointer;
+}
 .header-heading {
     max-width: 1044px;
 }
@@ -47,6 +64,15 @@
     right: 19%;
     top: 100px;
 
+}
+
+.header-logo {
+    transition: scale 100ms linear;
+}
+
+.header-logo:hover {
+    cursor: pointer;
+    scale: 1.06;
 }
 
 .header-heading {
@@ -82,37 +108,21 @@
     padding: 11px 28px;
     border-radius: 28px;
     border: none;
+    transition: all 100ms linear;
+}
+
+.header-button:hover {
+    background-color: #FFFFFF;
+    color: #293fc6 !important;
+    scale: 1.06;
 }
 
 .pt-33 {
     padding-top: 33px;
 }
 
-.location {
-    font-family: Yantramanav;
-    line-height: 100%;
-
-}
-
-.location-info {
-    font-family: Yantramanav;
-    line-height: 100%;
-    opacity: 70%;
-}
-
 .gap-30 {
     gap: 30px;
-}
-
-.white-line {
-    height: 74px;
-    border: 2px white solid;
-
-}
-
-.go-check {
-    padding: 20px 40px;
-    border-radius: 150px;
 }
 
 .section2 {
@@ -147,6 +157,12 @@
     transition: all 100ms linear;
 }
 
+.section2-card:hover {
+    background-color: #2C49FE;
+    cursor: pointer;
+
+}
+
 .card-heading {
     font-family: Poppins;
     line-height: 100%;
@@ -178,10 +194,7 @@
     margin-top: 35px;
 }
 
-.section2-card:hover {
-    background-color: #2C49FE;
 
-}
 
 .section2-card:hover .card-data h4 {
     color: #FFFFFF;
@@ -285,6 +298,7 @@
 .section4-card:hover {
     scale: 1.05;
     box-shadow: 2px 9px 32px 0px #0000000F;
+    cursor: pointer;
 }
 
 .card-date {
@@ -365,6 +379,11 @@
     border-radius: 23px;
     padding: 11px 28px;
     border: none;
+    transition: scale 100ms linear;
+}
+
+.form-button:hover {
+    scale: 1.09;
 }
 
 .w-90 {
@@ -393,12 +412,10 @@
     width: 100px;
 }
 
-.instagram:hover {
-    scale: 1.09;
-}
 
 .social-media:hover {
     scale: 1.2;
+    cursor: pointer;
 }
 
 .main {
@@ -415,7 +432,9 @@
     line-height: 100%;
     letter-spacing: 0%;
 }
-
+.sub-main:hover{
+    cursor: pointer;
+}
 
 .grid-parent {
     display: grid;
@@ -446,15 +465,20 @@
     grid-area: 2 / 2 / 3 / 3;
 }
 
-.div6 {
+/* .div6 {
     grid-area: 2 / 3 / 3 / 4;
-}
+} */
 
 
-.div6 {
+.show-box {
     background-color: #18205C;
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.show-box:hover{
+    cursor: pointer;
 }
 
 .show-more {
@@ -463,73 +487,61 @@
     text-align: center;
 }
 
+.blue-box {
+    max-width: 962px;
+    padding: 19px 23px;
+    background-color: #293FC6;
+    border-radius: 150px;
+    margin-top: 145px;
+    opacity: 74%;
 
+}
 
+.bluebox-main {
+    font-family: Yantramanav;
+    line-height: 100%;
 
+}
 
+.bluebox-submain {
+    font-family: Yantramanav;
+    line-height: 100%;
 
+}
 
 
+.white-line {
+    height: 74px;
+    border: solid white;
+    width: 0;
+}
 
+.w-178 {
+    width: 178px;
+}
 
+.white-button {
+    width: 185px;
+    height: 70px;
+    border-radius: 150px;
+    background-color: #FFFFFF;
+    transition: scale 100ms linear;
+    border: none;
 
+}
 
+.white-button:hover {
+    scale: 1.09;
+    border: none;
+}
 
+.go-check {
+    font-family: Poppins;
+    line-height: 100%;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
